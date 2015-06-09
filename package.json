@@ -1,0 +1,40 @@
+{
+    "name":"ytestrunner",
+    "author":"Krishnan Anantheswaran <kananthmail-github@yahoo.com>",
+    "description":"Run YUI tests for node packages using npm test with support for saving test results, coverage and more. Supports YUITest as well as YUI3 style tests.",
+    "version":"0.1.2",
+    "repository":{
+        "type":"git",
+        "url":"git://github.com/gotwarlost/ytestrunner.git"
+    },
+    "bugs":{
+        "url":"http://github.com/gotwarlost/ytestrunner/issues"
+    },
+    "bin":{
+        "ytestrunner":"lib/cli.js"
+    },
+    "scripts":{
+        "test":"test/run.js"
+    },
+    "engines":{
+        "node":">=0.4.12"
+    },
+    "dependencies":{
+        "mkdirp":"*",
+        "colors":"*",
+        "fileset":"*",
+        "nopt":"*",
+        "resolve":"*",
+        "async":"*"
+    },
+    "devDependencies":{
+        "rimraf":"*",
+        "nodeunit":"*"
+    },
+    "licenses":[
+        {
+            "type":"MIT",
+            "url":"http://github.com/gotwarlost/ytestrunner/raw/master/LICENSE"
+        }
+    ]
+}
